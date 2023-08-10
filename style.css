@@ -4,12 +4,12 @@ body {
     align-items: center;
     height: 100vh;
     background-color: rgb(51, 90, 196);
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: white;
-
 }
 
 .box {
@@ -18,29 +18,21 @@ a {
     height: 150px;
     width: 350px;
     border-radius: 15px;
-    background-color: rgb(0, 0, 0);
-    flex-direction: column;
+    background-color: rgb(51, 90, 196);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-   margin-right: 50px;
-}
-
-.buttons-container {
-    display: flex;
-    justify-content: space-around;
-    height: 40px;
-    width: 120px;
-    color: white; 
+    margin-right: 50px;
 }
 
 button {
-    height: 60px;
+    height: 30px;
     width: 110px;
-    font-weight:500;
+    font-weight: 500;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border-radius: 50px;
     border: 2px solid rgb(255, 255, 255);
-
+    margin: 5px;
 }
